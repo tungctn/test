@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 800px) {
+    .container {
+        max-width: 728px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+.text-through {
+    text-decoration: line-through !important;
+}
+
+.border_bottom-2px {
+    border-bottom: 2px solid black !important;
+}
+
+.text-express {
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+*:focus {
+    outline: none;
+}
+
+
+#wrapper {
+    background-image: url("/assets/img/bg3.jpg");
+    width: 100%;
+}
+
+/* header */
+#header {
+    
+}
+
+
+div[class="row border-bottom mb-3"] {
+    bottom: -140px;
+}
+
+#header .btn-header:hover {
+    background-color: #7bed9f;
+    transition: background-color 0.5s;
+    border: 2px solid #ff7f50;
+    transition: border 0.5s;
+    transform: rotate(1deg);
+}
+
+#header img[src="/assets/img/account.jpg"] {
+    width: 60px;
+    height: auto;
+}
+
+#header .account_img {
+    background-repeat: no-repeat;
+    background-image: url('/assets/img/account.jpg');
+    background-size: 50px;
+}
+
+#header .account_img:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#header a[class="link-logo"]:hover {
+    text-decoration: none;
+}
+/* end header */
+
+/* content */
+#content_header a[href*="#content-"] {
+    color: black;
+    border: none;
+}
+
+#content_header a[href*="#content-"]:hover {
+    font-weight: 700;
+    color: black;
+    border-top: 2px solid black !important;
+    transition: border 0.5s;
+}
+
+#content_body {
+    margin-top: 100px;
+}
+
+#content_body .list_res img:hover {
+    opacity: 0.8;
+}
+
+#content_body .list_res .bg-white:hover {
+    transform: rotate(1deg);
+    border: 1px solid #d63031;
+    border-bottom:10px solid #d63031;
+    transition: border 0.5s;
+}
+
+#content_body .res_seafoood-link, .res_chicken-link {
+    margin: 0 16px;
+    font-weight: bold;
+}
+
+#content_body .res_seafoood-location, .res_chicken-location {
+    font-size: 0.7rem;
+    font-weight: lighter;
+}
+/* end content */

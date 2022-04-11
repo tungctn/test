@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <div id="wrapper">
+        <!--  -->
+
+        <div id="header" class="">
+
+            <div class="container">
+                <div class="row border-bottom mb-3">
+                    <div class="col-md-3">
+                        <a href="" class="link-logo">
+                            <iframe src="https://icons.iconarchive.com/icons/ampeross/qetto/128/icon-developer-icon.png" frameborder="0"></iframe>
+                            <span style="font-size: 20px; font-weight: 800;" class="text-dark">Marketing</span>
+                        </a>
+
+                    </div>
+                    <div class="col-md-3 d-flex">
+                        <input class="form-control m-auto" placeholder="Search...." type="text">
+                    </div>
+                    <div class="col-md-5 text-right d-flex">
+                        <a class="btn btn-header m-auto">
+                            <strong class="text-dark">
+                                <i class="ti-pencil rung"></i>
+                                Đánh giá
+                            </strong>
+                        </a>
+                        <a href="" class="btn btn-header m-auto" data-toggle="modal" data-target="#login-modal">
+                            <strong class="text-dark">
+                                <i class="ti-heart rung"></i>
+                                Đăng nhập
+                            </strong>
+
+                        </a>
+                        <a href="/signup.html" class="btn btn-header m-auto">
+                            <strong class="text-dark">
+                                <i class="ti-bell rung"></i>
+                                Đăng ký
+                            </strong>
+                        </a>
+                    </div>
+                    <div class="modal" id="login-modal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5>Đăng nhập</h5>
+                                    <button class="close" data-dismiss="modal">
+                                        <span>&times;</span>
+                                    </button>
+                                </div>
+                                
+                                <div class="modal-body">
+                                    <div class="form-group py-3">
+                                        <label class="mb-2" for="">Username</label>
+                                        <input type="text" class="form-control" required name="username"
+                                            placeholder="Username" id="username">
+                                    </div>
+                                    <div class="form-group py-3">
+                                        <label class="mb-2" for="">Password</label>
+                                        <input type="password" class="form-control" required name="password"
+                                            placeholder="Password" id="password">
+                                    </div>
+                                    <div class="form-group py-3">
+                                        <label for="" class="form-check-label">Bạn chưa có tài khoản?
+                                            <a class="text-decoration-none" data-toggle="modal"
+                                                data-target="#signup-modal" data-dismiss="modal" href="">Đăng ký</a>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                                    <button class="btn btn-primary">
+                                        Đăng nhập
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="content">
+            <div class="container" id="content_header">
+                <div class="row border-0">
+                    <div class="col-md-12">
+                        <div class="nav nav-tabs border-bottom">
+                            <a href="#content-1" class="nav-item nav-link border_bottom-2px active"
+                                data-toggle="tab">Điện thoại</a>
+                            <a href="#content-2" class="nav-item nav-link" data-toggle="tab">Máy tính</a>
+                            <a href="#content-3" class="nav-item nav-link" data-toggle="tab">Quần áo</a>
+                            <a href="#content-4" class="nav-item nav-link" data-toggle="tab">Loa</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="content_body">
+                <div class="row">
+                    <div class="col-md-3"></div>
+
+                    <div class="col-md-12">
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="content-1">
+
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 text-center mt-2 mb-2 list_res">
+                                        <div class="bg-white py-2">
+                                            <a href="">
+                                                <img src="/assets/img/smartphone.jpg"
+                                                    class="img-fluid mb-2" alt="">
+
+                                                <div class="res_seafoood my-2">
+                                                    <a href="" class="text-dark res_seafoood-link text-express">Điện thoại iPhone 12 64GB VN/A Blue - Hàng chính hãng</a>
+                                                    <p class="text-danger">16,490,000đ</p>
+                                                    <span class="">
+                                                        <a class="text-dark res_seafoood-location text-express text-through" style="text-decoration: line-through;" >
+                                                            23,600,000đ
+                                                        </a>
+                                                    </span>
+                                                    <!-- <span style="text-decoration: line-through;" class="">300000đ</span> -->
+                                                </div>
+                                                <button class="order_seafood btn btn-outline-danger mb-2"
+                                                    data-toggle="modal" data-target="#ordergirl">Đặt
+                                                    hàng</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 text-center mt-2 mb-2 list_res">
+                                        <div class="bg-white py-2">
+                                            <a href="">
+                                                <img src="/assets/img/smartphone.jpg"
+                                                    class="img-fluid mb-2" alt="">
+
+                                                <div class="res_seafoood my-2">
+                                                    <a href="" class="text-dark res_seafoood-link text-express">Điện thoại iPhone 12 64GB VN/A Blue - Hàng chính hãng</a>
+                                                    <p class="text-danger">16,490,000đ</p>
+                                                    <span class="">
+                                                        <a class="text-dark res_seafoood-location text-express text-through" style="text-decoration: line-through;" >
+                                                            23,600,000đ
+                                                        </a>
+                                                    </span>
+                                                    <!-- <span style="text-decoration: line-through;" class="">300000đ</span> -->
+                                                </div>
+                                                <button class="order_seafood btn btn-outline-danger mb-2"
+                                                    data-toggle="modal" data-target="#ordergirl">Đặt
+                                                    hàng</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 text-center mt-2 mb-2 list_res">
+                                        <div class="bg-white py-2">
+                                            <a href="">
+                                                <img src="/assets/img/smartphone.jpg"
+                                                    class="img-fluid mb-2" alt="">
+
+                                                <div class="res_seafoood my-2">
+                                                    <a href="" class="text-dark res_seafoood-link text-express">Điện thoại iPhone 12 64GB VN/A Blue - Hàng chính hãng</a>
+                                                    <p class="text-danger">16,490,000đ</p>
+                                                    <span class="">
+                                                        <a class="text-dark res_seafoood-location text-express text-through" style="text-decoration: line-through;" >
+                                                            23,600,000đ
+                                                        </a>
+                                                    </span>
+                                                    <!-- <span style="text-decoration: line-through;" class="">300000đ</span> -->
+                                                </div>
+                                                <button class="order_seafood btn btn-outline-danger mb-2"
+                                                    data-toggle="modal" data-target="#ordergirl">Đặt
+                                                    hàng</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                            <div class="tab-pane fade show" id="content-2">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6 text-center mt-2 mb-2 list_res">
+                                        <div class="bg-white py-2">
+                                            <a href="">
+                                                <img src="/assets/img/computer.jpg"
+                                                    class="img-fluid mb-2" alt="">
+
+                                                <div class="res_seafoood my-2">
+                                                    <a href="" class="text-dark res_seafoood-link text-express">Laptop Asus Vivobook S15 S530UA i5 8250U/4GB+16GB/1TB/Win10</a>
+                                                    <p class="text-danger">16,490,000đ</p>
+                                                    <span class="">
+                                                        <a class="text-dark res_seafoood-location text-express text-through" style="text-decoration: line-through;" >
+                                                            23,600,000đ
+                                                        </a>
+                                                    </span>
+                                                    <!-- <span style="text-decoration: line-through;" class="">300000đ</span> -->
+                                                </div>
+                                                <button class="order_seafood btn btn-outline-danger mb-2"
+                                                    data-toggle="modal" data-target="#ordergirl">Đặt
+                                                    hàng</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 text-center mt-2 mb-2 list_res">
+                                        <div class="bg-white py-2">
+                                            <a href="">
+                                                <img src="/assets/img/computer.jpg"
+                                                    class="img-fluid mb-2" alt="">
+
+                                                <div class="res_seafoood my-2">
+                                                    <a href="" class="text-dark res_seafoood-link text-express">Laptop Asus Vivobook S15 S530UA i5 8250U/4GB+16GB/1TB/Win10</a>
+                                                    <p class="text-danger">16,490,000đ</p>
+                                                    <span class="">
+                                                        <a class="text-dark res_seafoood-location text-express text-through" style="text-decoration: line-through;" >
+                                                            23,600,000đ
+                                                        </a>
+                                                    </span>
+                                                    <!-- <span style="text-decoration: line-through;" class="">300000đ</span> -->
+                                                </div>
+                                                <button class="order_seafood btn btn-outline-danger mb-2"
+                                                    data-toggle="modal" data-target="#ordergirl">Đặt
+                                                    hàng</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 text-center mt-2 mb-2 list_res">
+                                        <div class="bg-white py-2">
+                                            <a href="">
+                                                <img src="/assets/img/computer.jpg"
+                                                    class="img-fluid mb-2" alt="">
+
+                                                <div class="res_seafoood my-2">
+                                                    <a href="" class="text-dark res_seafoood-link text-express">Laptop Asus Vivobook S15 S530UA i5 8250U/4GB+16GB/1TB/Win10</a>
+                                                    <p class="text-danger">16,490,000đ</p>
+                                                    <span class="">
+                                                        <a class="text-dark res_seafoood-location text-express text-through" style="text-decoration: line-through;" >
+                                                            23,600,000đ
+                                                        </a>
+                                                    </span>
+                                                    <!-- <span style="text-decoration: line-through;" class="">300000đ</span> -->
+                                                </div>
+                                                <button class="order_seafood btn btn-outline-danger mb-2"
+                                                    data-toggle="modal" data-target="#ordergirl">Đặt
+                                                    hàng</button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="tab-pane fade show" id="content-3">3</div>
+                            <div class="tab-pane fade show" id="content-4">4</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <script>
+                // 
+            </script>
+</body>
+
+</html>
+    
